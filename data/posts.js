@@ -1,24 +1,20 @@
- const posts = [
+const posts = [
   {
-    slug: "my-first-trip",
-    title: "My First Trip",
-    date: "January 2025",
-    location: "Your Location Here",
-    coverImage: "/images/cover.jpg",
-    excerpt: "A short description of your trip that shows on the home page.",
+    slug: "broken-islands-july-2024",
+    title: "Broken Islands Trip",
+    date: "July 2024",
+    location: "Grenada",
+    coverImage: "/images/IMG_0399.jpg",
+    excerpt: "The larches in full bloom, riding through some of the most beautiful scenery imaginable.",
     content: [
       {
         type: "text",
-        value: "Write your first paragraph here. Describe what you saw, felt, experienced.",
+        value: "All the larches are out in full bloom — riding around the Broken Islands in July, the landscape was breathtaking. Every turn revealed another burst of colour against the water.",
       },
       {
         type: "image",
-        src: "/images/photo1.jpg",
-        caption: "Your photo caption here.",
-      },
-      {
-        type: "text",
-        value: "Write another paragraph here.",
+        src: "/images/IMG_0399.jpg",
+        caption: "The larches in full bloom, Broken Islands, July 2024.",
       },
     ],
   },
